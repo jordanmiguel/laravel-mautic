@@ -1,0 +1,46 @@
+{
+  "name": "eduardoavargas/mautic",
+  "description": "Access Api Mautic Oauth2 in laravel",
+  "license": "MIT",
+  "keywords": [
+    "eduardovargas,",
+    "laravel",
+    "mautic",
+    "lumen",
+    "api",
+    "sync",
+    "automation",
+    "email",
+    "marketing"
+  ],
+  "authors": [
+    {
+      "name": "Eduardo Vargas",
+      "email": "eduardo.a.vargas@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/contracts": "5.5.*|5.6.*|5.7.*",
+    "illuminate/support": "5.5.*|5.6.*|5.7.*",
+    "mautic/api-library": "2.15.0",
+    "guzzlehttp/guzzle": "^6.3.3",
+    "graham-campbell/manager": "^4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "EduardoVargas\\Mautic": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EduardoVargas\\Mautic\\MauticServiceProvider"
+      ],
+      "aliases": {
+        "Mautic": "Mautic\\Facades\\Mautic"
+      }
+    }
+  }
+}
