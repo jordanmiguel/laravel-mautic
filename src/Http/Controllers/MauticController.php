@@ -1,8 +1,8 @@
-<?php namespace EduardoVargas\Mautic\Http\Controllers;
+<?php namespace EduardoAVargas\Mautic\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use EduardoVargas\Mautic\Models\MauticConsumer;
-use EduardoVargas\Mautic\Facades\Mautic;
+use EduardoAVargas\Mautic\Models\MauticConsumer;
+use EduardoAVargas\Mautic\Facades\Mautic;
 
 
 

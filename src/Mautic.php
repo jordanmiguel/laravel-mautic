@@ -1,10 +1,10 @@
-<?php namespace EduardoVargas\Mautic;
+<?php namespace EduardoAVargas\Mautic;
 
-use EduardoVargas\Mautic\Factories\MauticFactory;
+use EduardoAVargas\Mautic\Factories\MauticFactory;
 use GrahamCampbell\Manager\AbstractManager;
 use Illuminate\Contracts\Config\Repository;
 use Mautic\Auth\OAuthClient;
-use EduardoVargas\Mautic\Models\MauticConsumer;
+use EduardoAVargas\Mautic\Models\MauticConsumer;
 
 class Mautic extends AbstractManager
 {

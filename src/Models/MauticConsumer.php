@@ -1,4 +1,4 @@
-<?php namespace EduardoVargas\Mautic\Models;
+<?php namespace EduardoAVargas\Mautic\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

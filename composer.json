@@ -1,5 +1,5 @@
 {
-  "name": "eduardovargas/laravel-mautic",
+  "name": "eduardoavargas/laravel-mautic",
   "description": "Access Api Mautic Oauth2 in laravel",
   "license": "MIT",
   "keywords": [
@@ -30,16 +30,16 @@
   },
   "autoload": {
     "psr-4": {
-      "EduardoVargas\\Mautic": "src/"
+      "EduardoAVargas\\Mautic": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "EduardoVargas\\Mautic\\MauticServiceProvider"
+        "EduardoAVargas\\Mautic\\MauticServiceProvider"
       ],
       "aliases": {
-        "Mautic": "Mautic\\Facades\\Mautic"
+        "Mautic": "EduardoAVargas\\Mautic\\Facades\\Mautic"
       }
     }
   }

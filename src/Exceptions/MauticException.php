@@ -1,4 +1,4 @@
-<?php namespace EduardoVargas\Mautic\Exceptions;
+<?php namespace EduardoAVargas\Mautic\Exceptions;
 /**
  * Invalid Request Exception
  *

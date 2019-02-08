@@ -1,4 +1,4 @@
-<?php namespace EduardoVargas\Mautic\Facades;
+<?php namespace EduardoAVargas\Mautic\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
