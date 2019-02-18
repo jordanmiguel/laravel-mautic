@@ -12,8 +12,7 @@ A API deve estar ativada no Mautic. No Mautic, vá para a página Configuração
 
 
 ```sh
-composer require EduardoVargas/mautic
-```
+composer require eduardoavargas/laravel-mautic```
 
  `php artisan vendor:publish`  
 
