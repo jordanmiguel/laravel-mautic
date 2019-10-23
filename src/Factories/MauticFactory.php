@@ -5,6 +5,7 @@ use Mautic\Auth\OAuthClient;
 use EduardoAVargas\Mautic\Models\MauticConsumer;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
+use Illuminate\Support\Arr as Arr;
 
 
 class MauticFactory
@@ -71,7 +72,7 @@ class MauticFactory
             }
         }
 
-        return array_only($config, ['version','baseUrl', 'clientKey', 'clientSecret','callback']);
+        return Arr::only($config, ['version','baseUrl', 'clientKey', 'clientSecret','callback']);
     }
 
     /**
